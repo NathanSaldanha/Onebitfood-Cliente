@@ -1,13 +1,8 @@
-import { useState } from 'react';
-import { Navbar, Nav } from 'react-bootstrap';
+import { Navbar } from 'react-bootstrap';
 import Image from 'next/image';
 import Link from 'next/link';
 
-
 export default function Header() {
-  const [ addressModalShow, setAddressModalShow ] = useState(false);
-  const [ cartModalShow, setCartModalShow ] = useState(false);
-
   return (
     <Navbar bg='white' expand='lg' className='border-bottom border-custom-gray'>
       <Navbar.Brand className='mx-3'>
