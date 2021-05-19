@@ -7,12 +7,12 @@ function MyApp({ Component, pageProps }) {
   return (
     <>
       <Head>
-        <title>OneBitFood</title>
-        <link ref="icon" href="/favicon.ico"/>
+        <title>OneBitFood V2</title>
+        <link ref="icon" href="/favicon.icon" />
       </Head>
 
       <main>
-        <Header/>
+        <Header />
         <Container className='mt-6'>
           <Component {...pageProps} />
         </Container>
