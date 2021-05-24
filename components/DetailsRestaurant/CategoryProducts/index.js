@@ -10,6 +10,7 @@ export default function CategoryProducts(props) {
 
   return(
     <>
+
       <h5 className='fw-bold'>{props.title}</h5>
       <Row>
         {props.products.map((product, i) =>
