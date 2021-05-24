@@ -15,6 +15,7 @@ export default function getRestaurants() {
     params = `${params == '' ? '?' : '&'}q=${q}`
   if(address.city != '')
     params = `${params == '' ? '?' : '&'}city=${address.city}`
+
   const fetcher = (...args) => fetch(...args).then((res) => res.json());
 
   const { data, error } = useSWR(

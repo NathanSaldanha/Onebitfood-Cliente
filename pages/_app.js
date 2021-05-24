@@ -2,7 +2,7 @@ import Head from 'next/head';
 import '../styles/globals.scss'
 import Header from '../components/Header';
 import Container from 'react-bootstrap/Container';
-import {RecoilRoot} from 'recoil';
+import { RecoilRoot } from 'recoil';
 
 function MyApp({ Component, pageProps }) {
   return (
